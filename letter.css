@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+    font-family: 'Georgia', serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .letter-container {
+    max-width: 700px;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6a0dad;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .handwritten {
+    font-family: 'Segoe Script', cursive;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .back-btn:hover {
+    background-color: #4b0082;
+  }
+  
